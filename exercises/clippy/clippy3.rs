@@ -10,7 +10,7 @@
 #[allow(clippy::unnecessary_literal_unwrap)]
 fn main() {
     let my_option: Option<()> = None;
-    my_option.unwrap();
+
 
     let my_arr = &[
         -1, -2, -3,
